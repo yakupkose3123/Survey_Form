@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/background_image.jpg);
+}
+#conteiner{
+    max-width: 1240px;
+    /*height: 1063px; */
+
+    background-color: rgba(0,0,0,0.3);
+    margin: auto; /* ortalamak için*/
+    margin-top: 30px;
+    
+    }
+
+#header{
+    text-align: center;
+}
+#title{
+    font-family: 'Bowlby One SC', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.1rem;
+    color: #FFFFFF;
+
+}
+span{
+    color: red;
+    align-items: center;
+    text-align: center;
+}
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    color:#FFFFFF ;
+}
+textarea{
+    resize: none;
+    
+}
+#survey-form-container{
+    width: 500px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    
+}
+#name,#age,#email,#dropdown,#feedback{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.input-box{
+    margin-top: 10px;
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: #FCFCFC;
+    border-radius: 50px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}
+.form-button{
+    margin: auto;
+    width: 160px;
+    margin-top: 15px;
+}
+#form-button:hover{
+    background-color: white;
+    color: red;
+}
